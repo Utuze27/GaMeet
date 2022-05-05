@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"></link>
+    <title>GaMeet</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/heroes/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/home.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/messaggio/leggiMessaggi">Messaggi</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+<main>
+  <h1 class="visually-hidden">GaMeet: Find your Party</h1>
+
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="img/GaMeet_logo_def.png" alt="" width="200" height="200">
+    <h1 class="display-5 fw-bold">GaMeet: Find your Party</h1>
+    <div class="col-lg-6 mx-auto">
+      <p style="color: black; font-size: 30px;" class="lead mb-4"><strong>Hai bisogno di trovare nuovi amici per le tue partite? Vuoi entrare a far parte di un team competitivo? Sei nel posto giusto!</strong></p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a class="btn btn-primary btn-lg px-4 gap-3" role="button" href="/utente/matchUtenti">Match!</a>
+        <a class="btn btn-primary btn-lg px-4" role="button" href="/team/leggiTeams">Teams</a>
+      </div>
+    </div>
+  </div>
+</main>
+<div class="card-group">
+  <div class="card">
+    <img src="../img/avatar_icon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a class="card-title" href="/utente/leggiMe">Profilo</a>
+      <p class="card-text">Noi di GaMeet diamo molta importanza alla personalizzazione, per questo ti chiediamo ti crearti un profilo. In questo modo potrai mandare richieste di amicizia e messaggi ad altri giocatori!</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../img/Teams_icon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a class="card-title" href="/utente/listaAmici">Lista Amici</a>
+      <p class="card-text">Visualizza l'elenco dei tuoi amici!</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../img/Games_icon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a class="card-title" href="/gioco/leggiGiochi">Giochi</a>
+      <p class="card-text">Rimani aggiornato sui nuovi giochi appena usciti oppure cerca i tuoi giochi preferiti nella nostra libreria!</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<footer>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://www.instagram.com/">Social Media</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://web.whatsapp.com/">Contattaci</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Altro</a>
+        </li>
+      </ul>
+</footer>
+
+
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>

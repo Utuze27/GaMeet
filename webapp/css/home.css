@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url('https://365psd.com/images/previews/c22/abstract-design-background-vector-4021.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(153, 8, 250, 0.589);
+    border: solid rgba(8, 248, 20, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+.card{
+    background-color: rgb(202, 149, 252);
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
